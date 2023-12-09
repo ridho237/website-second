@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+    <link href="../depedencies/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet" />
+    <link
+      href="../depedencies/samcome-webfont-medical-icons/webfont-medical-icons/css/wfmi-style.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Bagian Header-->
+    <header>
+      <a class="logo" href="/"><img src="../images/logo.svg" alt="logo" /></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#">Home</a>
+      <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+      <a class="close">&times;</a>
+      <div class="overlay__content">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Gallery</a>
+      </div>
+    </div>
+    <script type="text/javascript" src="../javascript/script.js"></script>
+
+    <!--Bagian isi tentang-->
+    <section class="container">
+      <div class="kiri">
+        <div class="images">
+          <img src="images/Root.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="kanan">
+        <div class="aboutme">
+          <h1 style="font-size: 50px; font-family: Lato, sans-serif">About Me</h1>
+          <span></span>
+          <p>
+            Nama ku Muhammad Ridho, Lahir di Jakarta berusia 20 tahun, Untuk saat ini saya tinggal
+            dibogor, Di daerah bojonggede desanya bernama desa susukan, walau masih tinggal dengan
+            orang tua, namun saya berambisi untuk membanggakan kedua orang tua saya, serta menjadi
+            yang terbaik untuk semuanya.
+          </p>
+          <span></span>
+          <h3 style="font-family: Lato, sans-serif">Follow me on social Media</h3>
+          <br />
+          <div class="tentang_icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Bagian favorite-->
+    <div class="tabs">
+      <input type="radio" id="tab1" name="tab-control" checked />
+      <input type="radio" id="tab2" name="tab-control" />
+      <input type="radio" id="tab3" name="tab-control" />
+      <input type="radio" id="tab4" name="tab-control" />
+      <ul>
+        <li title="Features">
+          <label for="tab1" role="button"
+            ><i class="fas fa-code"></i><br /><span> Favorite Langguage</span></label
+          >
+        </li>
+        <li title="Delivery Contents">
+          <label for="tab2" role="button"
+            ><i class="fas fa-film"></i><br /><span> Favorite Anime</span></label
+          >
+        </li>
+        <li title="Shipping">
+          <label for="tab3" role="button"
+            ><i class="fas fa-utensils"></i><br /><span> Favorite Food</span></label
+          >
+        </li>
+        <li title="Returns">
+          <label for="tab4" role="button"
+            ><i class="fas fa-gamepad"></i><br /><span> Favorite Games</span></label
+          >
+        </li>
+      </ul>
+
+      <div class="slider"><div class="indicator"></div></div>
+      <div class="content">
+        <section>
+          <h2>Favorite Langguage</h2>
+          <div class="card_warp">
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Python_(bahasa_pemrograman)"
+                style="--bg-img: url(images/1/Python.jpeg)"
+              >
+                <div>
+                  <h1>Python</h1>
+                  <p>
+                    Python diketik secara dinamis dan pengumpulan sampah. Ini mendukung beberapa
+                    paradigma pemrograman, termasuk pemrograman terstruktur (terutama, prosedural),
+                    berorientasi objek, dan fungsional. Python sering dideskripsikan sebagai bahasa
+                    "termasuk baterai" karena perpustakaan standarnya yang komprehensif.
+                  </p>
+                  <div class="date">Late, 1980</div>
+                  <div class="tags">
+                    <div class="tag">Guido van Rossum</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Java"
+                style="--bg-img: url('images/1/Java.png')"
+              >
+                <div>
+                  <h1>Java</h1>
+                  <p>
+                    Java merupakan bahasa pemrograman yang bersifat umum/non-spesifik (general
+                    purpose), dan secara khusus didesain untuk memanfaatkan dependensi implementasi
+                    seminimal mungkin. Karena fungsionalitasnya yang memungkinkan aplikasi java
+                    mampu berjalan di beberapa platform sistem operasi yang berbeda, java dikenal
+                    pula dengan slogannya, "Tulis sekali, jalankan di mana pun".
+                  </p>
+                  <div class="date">Early, 1991</div>
+                  <div class="tags">
+                    <div class="tag">James Gosling</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Go_(bahasa_pemrograman)"
+                style="--bg-img: url('images/1/Golang.jpeg')"
+              >
+                <div>
+                  <h1>Golang</h1>
+                  <p>
+                    Go adalah bahasa pemrograman sumber terbuka yang mudah, sederhana, efisien.
+                    Selain itu, Go memiliki level yang sama dengan Java. Yaitu bahasa pemrograman
+                    yang dihimpun dan diketik dalam bahasa C, dengan fitur pengumpulan sampah,
+                    penulisan terstruktur, keamanan memori, dan pemrograman yang konkuren serta
+                    berurutan.
+                  </p>
+                  <div class="date">Late, 2009</div>
+                  <div class="tags">
+                    <div class="tag">Robert Griesemer</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/C_(bahasa_pemrograman)"
+                style="--bg-img: url('images/1/C.jpg')"
+              >
+                <div>
+                  <h1>C</h1>
+                  <p>
+                    C dibuat untuk memprogram sistem dan jaringan komputer namun bahasa ini juga
+                    sering digunakan dalam mengembangkan software aplikasi. C juga banyak dipakai
+                    oleh berbagai jenis platform sistem operasi dan arsitektur komputer, bahkan
+                    terdapat beberepa compiler yang sangat populer telah tersedia.
+                  </p>
+                  <div class="date">Early, 1972</div>
+                  <div class="tags">
+                    <div class="tag">Dennis Ritchie</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Favorite Anime</h2>
+          <div class="card_warp">
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://myanimelist.net/anime/54112/Zom_100__Zombie_ni_Naru_made_ni_Shitai_100_no_Koto/pics"
+                style="--bg-img: url(images/2/Zom-100.jpg)"
+              >
+                <div>
+                  <h6 style="font-size: 14px">Zom 100: Bucket List of the Dead</h6>
+                  <p>
+                    In a trash-filled apartment, 24-year-old Akira Tendou watches a zombie movie
+                    with lifeless, envious eyes. After spending three hard years at an exploitative
+                    corporation in Japan.
+                  </p>
+                  <div class="date">Jul 9, 2023</div>
+                  <div class="tags">
+                    <div class="tag">Survival</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon"
+                style="--bg-img: url('images/2/Kobayashi-Maid.jpg')"
+              >
+                <div>
+                  <h6 style="font-size: 14px">Miss Kobayashi's Dragon Maid</h6>
+                  <p>
+                    As Kobayashi sets off for another day at work, she opens her apartment door only
+                    to be met by an unusually frightening sight the head of a dragon, staring at her
+                    from across the balcony.
+                  </p>
+                  <div class="date">Jan 12, 2017</div>
+                  <div class="tags">
+                    <div class="tag">Slice Of Life</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://myanimelist.net/anime/40748/Jujutsu_Kaisen"
+                style="--bg-img: url('images/2/Jujutsu-kaisen.jpg')"
+              >
+                <div>
+                  <h6 style="font-size: 14px">Jujutsu Kaisen</h6>
+                  <p>
+                    Idly indulging in baseless paranormal activities with the Occult Club, high
+                    schooler Yuuji Itadori spends his days at either the clubroom or the hospital,
+                    where he visits his bedridden grandfather.
+                  </p>
+                  <div class="date">Oct 3, 2020</div>
+                  <div class="tags">
+                    <div class="tag">Action</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://myanimelist.net/anime/23277/Saenai_Heroine_no_Sodatekata"
+                style="--bg-img: url('images/2/Saekano.jpg')"
+              >
+                <div>
+                  <h6 style="font-size: 14px">Saenai Heroine no Sodatekata</h6>
+                  <p>
+                    Tomoya Aki, an otaku, has been obsessed with collecting anime and light novels
+                    for years, attaching himself to various series with captivating stories and
+                    characters. Now, he wants to have a chance of providing the same experience for
+                    others by creating his own game
+                  </p>
+                  <div class="date">Jan 16, 2015</div>
+                  <div class="tags">
+                    <div class="tag">Romance</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Favorite Food</h2>
+          <div class="card_warp">
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Sate"
+                style="--bg-img: url(images/3/Sate.jpg)"
+              >
+                <div>
+                  <h1>Sate Ayam</h1>
+                  <p>
+                    terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan
+                    tusukan lidi tulang daun kelapa atau bambu, kemudian dipanggang menggunakan bara
+                    arang kayu. Sate disajikan dengan berbagai macam bumbu yang bergantung pada
+                    variasi resep sate.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://en.wikipedia.org/wiki/Udang_balado"
+                style="--bg-img: url('images/3/Udang.jpg')"
+              >
+                <div>
+                  <h1>Udang Balado</h1>
+                  <p>
+                    Bumbu yang digunakan dalam sambal udang antara lain bawang merah , bawang putih
+                    , kemiri , jahe , terasi , kunyit , lengkuas , cabai merah , semua dicampur dan
+                    ditumbuk dengan garam dan air.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Ketoprak_(makanan)"
+                style="--bg-img: url('images/3/ketoprak.png')"
+              >
+                <div>
+                  <h1>Ketoprak</h1>
+                  <p>
+                    Nama makanan ini diambil dari bunyi piring yang terjatuh. Awalnya, penjual
+                    makanan mencoba untuk membuat makanan baru yang berbeda agar laris dijual. Ia
+                    membuat makanan dari bihun, tahu dan ketupat yang disiram oleh bumbu.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://id.wikipedia.org/wiki/Kue_putu"
+                style="--bg-img: url('images/3/Putu.jpg')"
+              >
+                <div>
+                  <h1>Kue Putu</h1>
+                  <p>
+                    jenis kudapan tradisional Indonesia berupa kue dengan isian gula jawa, dibalut
+                    dengan parutan kelapa, dan tepung beras butiran kasar. Kue ini di kukus dengan
+                    diletakkan di dalam tabung bambu yang sedikit dipadatkan.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Favorite Games</h2>
+
+          <div class="card_warp">
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://play.google.com/store/apps/details?id=com.nexon.bluearchive&hl=en_US&pli=1"
+                style="--bg-img: url(BlueArchive.jpeg)"
+              >
+                <div>
+                  <h1>Blue Archive</h1>
+                  <p>Japanese RPG with simple tactics and cute character..</p>
+                  <div class="date">November 8, 2021</div>
+                  <div class="tags">
+                    <div class="tag">Android</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://playvalorant.com/id-id/"
+                style="--bg-img: url('Valorant.jpeg')"
+              >
+                <div>
+                  <h1>Valorant</h1>
+                  <p>First Person Shooter Game With skill mechanic..</p>
+                  <div class="date">June 2, 2020</div>
+                  <div class="tags">
+                    <div class="tag">PC</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://store.playstation.com/en-id/product/HP9000-CUSA00912_00-ASIAPLACEHOLDER0"
+                style="--bg-img: url('Uncharted.jpeg')"
+              >
+                <div>
+                  <h1>Uncharted 4</h1>
+                  <p>Adventure game with high quality graphics on PS4…</p>
+                  <div class="date">May 10, 2016</div>
+                  <div class="tags">
+                    <div class="tag">PS4</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space">
+              <a
+                class="card"
+                href="https://play.google.com/store/apps/details?id=jp.konami.pesam&hl=id"
+                style="--bg-img: url('pes.jpeg')"
+              >
+                <div>
+                  <h1>Efootball</h1>
+                  <p>Football game with unique mechanic and little hard…</p>
+                  <div class="date">November 11, 2021</div>
+                  <div class="tags">
+                    <div class="tag">Android</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!--Bagian footer-->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h1><img src="../images/logo.svg" alt="logo" /></h1>
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Gallery</a>
+        </p>
+        <p class="footer-company-name">Ridho Website © 2023</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Jl. Pulo No.1A</span> Desa Susukan, Bojonggede</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+62 812 9141 7962</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com"> ridhog227@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Tentang Website ini</span>
+          Disini ada beberapa halaman yang dapat dikunjungi seperti halaman About, Contact, Dan
+          terakhir ada Gallery disini ada berbagai photo terbaik yang saya simpan.
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
